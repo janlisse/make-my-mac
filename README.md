@@ -11,11 +11,15 @@ MacBook Pro 16", 2021, M1 Pro
  * Install latest update
  * Activate automatic system updates
 
+# Security & privacy
+ * Enable firewall
+ * TODO
+
 # Install software
  * [Brew](https://brew.sh/index_de) as package manager for MacOS.
     Fix brew path with:
     ```
-       echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<yourusername>/.zprofile
+       echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "/Users/$USER/.zprofile"
        eval "$(/opt/homebrew/bin/brew shellenv)"
     ```
  * [iTerm2](https://iterm2.com/downloads.html) for a neat terminal emulator 
@@ -34,8 +38,9 @@ MacBook Pro 16", 2021, M1 Pro
     echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
  ```
  * fzf => `brew install fzf`
- * ripgrep
- * kubectl
+ * ripgrep => => `brew install ripgrep`
+ * kubectl => `brew install kubectl`
+ * kubectx => `brew install kubectx`
  * Terraform
  * [sdkman](https://sdkman.io/) for Java/Scala/* version management
  * Docker
