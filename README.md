@@ -37,6 +37,14 @@ MacBook Pro 16", 2021, M1 Pro
     brew install romkatv/powerlevel10k/powerlevel10k
     echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
  ```
+ * Git (Brew managed) & and github CLI
+ ```
+    brew install git
+    brew install gh
+    gh alias set pc 'pr create --fill'
+    gh alias set pv 'pr view'
+    gh extension install dlvhdr/gh-prs
+ ```
  * fzf => `brew install fzf`
  * ripgrep => => `brew install ripgrep`
  * kubectl => `brew install kubectl`
