@@ -22,7 +22,8 @@ MacBook Pro 16", 2021, M1 Pro
        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "/Users/$USER/.zprofile"
        eval "$(/opt/homebrew/bin/brew shellenv)"
     ```
- * [iTerm2](https://iterm2.com/downloads.html) for a neat terminal emulator 
+ * [iTerm2](https://iterm2.com/downloads.html) for a neat terminal emulator
+ * Install decent [color scheme](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Brogrammer.itermcolors)  
  * [Rectangle](https://rectangleapp.com/) for window tiling with keyboard shortcuts
  * Use brew managed zsh:
  ```
